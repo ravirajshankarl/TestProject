@@ -1,0 +1,9 @@
+package com.view.verify;
+
+public class ViewTest {
+	
+	public static void main(String[] args) {
+		Object o=new Object();
+		String d=(String)o;
+	}
+}

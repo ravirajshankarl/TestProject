@@ -1,0 +1,9 @@
+package com.view.verify;
+
+public class ViewTest {
+	public static void main(String args[]) {
+		Circle c1=new Circle(1);
+		Circle c1=new Circle(2);
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.view.verify;
+
+public class ViewTest {
+	
+	public static void main(String[] args) {
+		String s="aaa";
+		String t="bbbb";
+		s+=s;
+		t+=s;
+		System.out.println(t);
+	}
+
+}

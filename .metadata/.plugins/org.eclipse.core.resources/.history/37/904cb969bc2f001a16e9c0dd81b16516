@@ -1,0 +1,18 @@
+package com.view.verify;
+
+public class ViewTest {
+	
+	public static void main(String[] args) {
+		String s1="test";
+		String s2=s1;
+		String s3=new String("test");
+		String s4="test";
+		if(s2==s3) {
+			System.out.println("<<<<<if<<");
+		}else {
+			System.out.println("<<<<else");
+		}
+		
+	}
+
+}

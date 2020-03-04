@@ -1,0 +1,15 @@
+package com.view.verify;
+
+public class ViewTest {
+	public static void main(String args[]) {
+		Circle c1=new Circle(1);
+		Circle c2=new Circle(2);
+	}
+
+}
+class Circle{
+	double radius;
+	Circle(double r){
+		this.radius=r;
+	}
+}

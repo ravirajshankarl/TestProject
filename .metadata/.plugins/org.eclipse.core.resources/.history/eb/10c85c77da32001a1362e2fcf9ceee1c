@@ -1,0 +1,21 @@
+package com.view.verify;
+
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.io.File;
+
+public class ReplaceEAR {
+	public static void main(String args[]) {
+		
+		String Destination = "C:\\Users\\212787016\\Downloads\\wildfly-8.2.1.Final\\wildfly-8.2.1.Final\\standalone\\deployments";
+		String Source = "C:\\Users\\212787016\\Desktop\\osm.ear";
+		//Path src = Paths.get(Source);
+		//Path dest = Paths.get(Destination);
+		File src = new File(Source);//Paths.get(Source);
+		File dest = new File(Destination);//Paths.get(Destination);
+		 FileUtils.copyFile(src, dest);
+		//Files.copy(src.toFile(), dest.toFile());
+	}
+
+}

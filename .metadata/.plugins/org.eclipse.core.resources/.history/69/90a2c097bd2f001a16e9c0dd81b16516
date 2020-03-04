@@ -1,0 +1,17 @@
+package com.view.verify;
+class A{
+	public A(){
+		System.out.println("<<<<<<A class<<");
+	}
+}
+class B extends A{
+	public B(String s) {
+		System.out.println(s);
+	}
+}
+public class ViewTest {
+	
+	public static void main(String[] args) {
+		B b= new B("Vlue");
+	}
+}

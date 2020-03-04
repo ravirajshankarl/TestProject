@@ -1,0 +1,14 @@
+package com.view.verify;
+
+public class ViewTest {
+	
+	public static void main(String[] args) {
+		int x=123;
+		int y=x;
+		int z=1;
+		y=5;
+		
+		System.out.println(x);
+		x=99;
+	}
+}

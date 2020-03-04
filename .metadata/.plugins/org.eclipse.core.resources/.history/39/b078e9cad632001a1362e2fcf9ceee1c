@@ -1,0 +1,10 @@
+package com.view.verify;
+
+public class ReplaceEAR {
+	public static void main(String args[]) {
+		
+		String Location = "C:\Users\212787016\Downloads\wildfly-8.2.1.Final\wildfly-8.2.1.Final\standalone\deployments\osm";
+		
+	}
+
+}

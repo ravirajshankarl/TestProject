@@ -1,0 +1,22 @@
+package com.view.verify;
+
+public class ViewTest {
+	
+	public static void main(String[] args) {
+		int[][] a= {{3,6,11},{12,1,101},{5,8,0},{723,123,59}};
+		int x=0;
+		nt y=0;
+		int z=a[0][0];
+		
+		for(int i=0;i<a.length;i++) {
+			for(int j=0;j<a[i].length;j++) {
+				if(a[i][j]<z) {
+					x=i;
+					y=j;
+					z=a[i][j];
+				}
+			}
+		}
+		System.out.println(x+y+z);
+	}
+}

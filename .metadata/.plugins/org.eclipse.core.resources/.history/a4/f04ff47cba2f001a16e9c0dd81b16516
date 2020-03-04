@@ -1,0 +1,12 @@
+package com.view.verify;
+
+public class ViewTest {
+	int x;
+	public static void main(String[] args) {
+		for(int i=0;i<10;i++) {
+			x++;
+		}
+		System.out.println(x);
+	}
+
+}

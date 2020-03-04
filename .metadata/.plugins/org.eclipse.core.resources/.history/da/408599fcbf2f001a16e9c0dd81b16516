@@ -1,0 +1,12 @@
+package com.view.verify;
+
+public class ViewTest {
+	
+	public static void main(String[] args) {
+		int x=2;
+		int y=100;
+		boolean b=(x>99)||(y>1);
+		System.out.println(b);
+	}
+
+}

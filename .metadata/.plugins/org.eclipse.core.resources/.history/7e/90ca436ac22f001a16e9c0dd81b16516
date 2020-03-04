@@ -1,0 +1,12 @@
+package com.view.verify;
+
+public class ViewTest {
+	
+	private int[] values;
+
+	public int[] getValues() {
+		return values;
+	}
+	
+
+}

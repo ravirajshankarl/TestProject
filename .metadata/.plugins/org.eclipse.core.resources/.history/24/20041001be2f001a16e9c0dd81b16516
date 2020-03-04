@@ -1,0 +1,15 @@
+package com.view.verify;
+
+public class ViewTest {
+	
+	public static void main(String[] args) {
+		int[] a= {3,7,8,5,2};
+		int x=0;
+		for(int i=0;i<a.length;i++) {
+			if(i%2!=0) {
+				x+=a[i];
+			}
+		}
+		System.out.println(x);
+	}
+}

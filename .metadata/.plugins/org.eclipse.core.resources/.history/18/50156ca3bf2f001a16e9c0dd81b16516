@@ -1,0 +1,18 @@
+package com.view.verify;
+
+public class ViewTest {
+	
+	public static void main(String[] args) {
+		System.out.println(A(10));
+	}
+
+	private static int A(int i) {
+		
+		return 2 * B(i-1);
+	}
+
+	private static int B(int i) {
+		// TODO Auto-generated method stub
+		return i-3;
+	}
+}

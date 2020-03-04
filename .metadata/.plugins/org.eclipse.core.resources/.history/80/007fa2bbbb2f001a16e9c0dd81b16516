@@ -1,0 +1,19 @@
+package com.view.verify;
+
+public class ViewTest {
+	
+	public static void main(String[] args) {
+		int test=16;
+		switch (test%7) {
+		case 2:
+			System.out.println("<<<<2222222<<");
+			break;
+		
+		default:
+			System.out.println("<<<<default<<");
+			break;
+		}
+		
+	}
+
+}

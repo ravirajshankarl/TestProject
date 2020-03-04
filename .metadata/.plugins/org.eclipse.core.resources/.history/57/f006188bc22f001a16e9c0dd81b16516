@@ -1,0 +1,8 @@
+package com.view.verify;
+
+public class ViewTest {
+	public static void main(String args[]) {
+		
+	}
+
+}

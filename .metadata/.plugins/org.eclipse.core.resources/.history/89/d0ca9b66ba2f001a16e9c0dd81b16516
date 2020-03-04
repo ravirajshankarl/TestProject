@@ -1,0 +1,11 @@
+package com.view.verify;
+
+public class ViewTest {
+	double x;
+	public static void main(String[] args) {
+		ViewTest a=new ViewTest();
+		System.out.println(a.x);
+
+	}
+
+}

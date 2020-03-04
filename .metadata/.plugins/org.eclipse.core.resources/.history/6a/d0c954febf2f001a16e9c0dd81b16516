@@ -1,0 +1,13 @@
+package com.view.verify;
+
+public class ViewTest {
+	
+	public static void main(String[] args) {
+		int x=250;
+		if(x%2==0) {
+			x/=2;
+		}
+		System.out.println(b);
+	}
+
+}
